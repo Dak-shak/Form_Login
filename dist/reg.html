@@ -1,6 +1,7 @@
 <!-- register.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Register</title>
@@ -8,24 +9,23 @@
   <meta name="author" content="Lere Dakshak Mamman">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-gray-100 flex items-center justify-center min-h-screen px-4">
+
+
   <form class="bg-white w-full sm:max-w-md p-6 rounded-2xl shadow-lg" onsubmit="registerUser(event)">
     <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Create Account</h2>
-
     <input id="fullname" type="text" required placeholder="Full Name" class="mb-4 w-full p-2 border rounded" />
     <input id="email" type="email" required placeholder="Email" class="mb-4 w-full p-2 border rounded" />
     <input id="phone" type="tel" required placeholder="Phone" class="mb-4 w-full p-2 border rounded" />
     <input id="dob" type="date" required class="mb-6 w-full p-2 border rounded" />
     <input id="password" type="password" required placeholder="Password" class="mb-4 w-full p-2 border rounded" />
-    
-
     <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Register</button>
 
-    <p class="text-center text-sm mt-4">Already have an account? <a href="login.html" class="text-blue-600">Login</a></p>
+    <p class="text-center text-sm mt-4">Already have an account? <a href="login.html" class="text-blue-600">Login</a>
+    </p>
   </form>
-
-
-
   <script src="script.js"></script>
 </body>
+
 </html>
