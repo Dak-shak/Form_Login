@@ -88,15 +88,15 @@ function showUserDetails() {
   `;
 }
 
-function togglePassword() {
-  const passField = document.getElementById("loginPassword");
+function togglePassword(event, inputId) {
+  const passwordField = document.getElementById(inputId);
   const toggleBtn = event.target;
 
-  if (passField.type === "password") {
-    passField.type = "text";
+  if (passwordField.type === "password") {
+    passwordField.type = "text";
     toggleBtn.textContent = "Hide";
   } else {
-    passField.type = "password";
+    passwordField.type = "password";
     toggleBtn.textContent = "Show";
   }
 }
